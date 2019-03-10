@@ -1,0 +1,27 @@
+{
+  "name": "@demo-package/demopackage",
+  "version": "0.0.1",
+  "description": "test npm package",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/200688523/demopackage.git"
+  },
+  "keywords": [
+    "npm",
+    "typescript"
+  ],
+  "author": "linh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/200688523/demopackage/issues"
+  },
+  "homepage": "https://github.com/200688523/demopackage#readme",
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  }
+}
